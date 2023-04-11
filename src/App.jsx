@@ -9,9 +9,7 @@ function App() {
     <div>
       <Header />
       <div className="App">
-        <div>
           <Cuerpo/>
-        </div>
       </div>
     </div>
   )

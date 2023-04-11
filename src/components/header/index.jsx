@@ -5,7 +5,7 @@ export default function Header() {
         <nav className="navbar bg-transparent fixed-top">
             <div className="container-fluid justify-content-around ">
                 <img src={logo} width={180} alt="" />
-                <button className="navbar-toggler text-" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <button className="menu navbar-toggler text-" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <img src={menu}alt="" />
                 </button>
                 <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
